@@ -3205,7 +3205,7 @@ local camera = CreateCam(camtype_usually14)
 0x2F1D6843
 
 ```lua
-local integer = CreateCar(nameHash, x, y, z, unknownTrue)
+local integer = CreateCar(nameHash, x, y, z, isNetworked)
 ```
 
 ---
@@ -3245,7 +3245,7 @@ CreateCarsOnGeneratorsInArea(x0, y0, z0, x1, y1, z1)
 0x4A673763
 
 ```lua
-local integer = CreateChar(type, model, x, y, z, unknownTrue)
+local integer = CreateChar(type, model, x, y, z, isNetworked)
 ```
 
 ---
@@ -3405,7 +3405,7 @@ CreateNmMessage(Unk40, id)
 0x4DE152A0
 
 ```lua
-local integer = CreateObject(model, x, y, z, unknownTrue)
+local integer = CreateObject(model, x, y, z, isNetworked)
 ```
 
 ---
@@ -3415,7 +3415,7 @@ local integer = CreateObject(model, x, y, z, unknownTrue)
 0x75C51A26
 
 ```lua
-local integer = CreateObjectNoOffset(model, x, y, z, unknownTrue)
+local integer = CreateObjectNoOffset(model, x, y, z, isNetworked)
 ```
 
 ---
