@@ -3205,7 +3205,7 @@ local camera = CreateCam(camtype_usually14)
 0x2F1D6843
 
 ```lua
-local integer = CreateCar(nameHash, x, y, z, unknownTrue)
+local integer = CreateCar(nameHash, x, y, z, isNetworked)
 ```
 
 ---
