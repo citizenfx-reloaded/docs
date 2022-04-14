@@ -1,3 +1,9 @@
+---
+id: vehicles
+title: Vehicles
+hide_title: true
+---
+
 # Vehicles
 
 ## Cars

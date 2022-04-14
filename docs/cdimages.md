@@ -1,3 +1,9 @@
+---
+id: cdimages
+title: CD Image
+hide_title: true
+---
+
 # CD Image
 CitizenIV has the ability to override/insert files that would normally be placed in 'CD images' (.img files) at runtime. This, however, is bound to a few specific limitations:
 

@@ -1,3 +1,9 @@
+---
+id: peds
+title: Peds
+hide_title: true
+---
+
 # Peds
 
 | Model name | Name | Hash key |

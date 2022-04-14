@@ -1,3 +1,9 @@
+﻿---
+id: troubleshoot
+title: Troubleshooting
+hide_title: true
+---
+
 # Troubleshooting
 
 ## Endless loading while connecting to server

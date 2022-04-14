@@ -1,3 +1,9 @@
+---
+id: install
+title: Getting Started
+hide_title: true
+---
+
 # Getting Started
 
 Running CitizenIV is very easy as downloading and running the files is largely intuitive.

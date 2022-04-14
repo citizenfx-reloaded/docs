@@ -1,3 +1,9 @@
+---
+id: weapons
+title: Weapons
+hide_title: true
+---
+
 # Weapons
 
 | Icon | ID | Weapon | Model name |

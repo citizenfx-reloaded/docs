@@ -1,3 +1,9 @@
+---
+id: events
+title: Events
+hide_title: true
+---
+
 # Events
 
 ## Client

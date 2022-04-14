@@ -1,4 +1,10 @@
-﻿# ⁉️ FAQ
+﻿---
+id: faq
+title: ⁉️ FAQ
+hide_title: true
+---
+
+# ⁉️ FAQ
 
 ### Does it cost?
 

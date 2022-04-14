@@ -1,3 +1,9 @@
+---
+id: resource
+title: Resource definition
+hide_title: true
+---
+
 # Resource definition
 
 The **resource definition file** is a file named `__resource.lua`, placed in a resource folder on the server. This document lists valid built-in directives.

@@ -1,3 +1,9 @@
+---
+id: weathers
+title: Weathers
+hide_title: true
+---
+
 # Weathers
 
 | ID | Weather |

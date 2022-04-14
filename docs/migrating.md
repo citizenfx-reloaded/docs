@@ -1,3 +1,9 @@
+---
+id: migrating
+title: Beta Compatibility
+hide_title: true
+---
+
 # Beta Compatibility
 
 In the beta version of CitizenIV there was a lot of scripting related clientside changes. To run your server with the beta version of CitizenIV, you have to change some things in your scripts.

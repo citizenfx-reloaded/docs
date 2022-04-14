@@ -1,3 +1,9 @@
+---
+id: natives
+title: Natives
+hide_title: true
+---
+
 # Natives
 
 ## AbortAllGarageActivity

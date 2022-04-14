@@ -1,3 +1,9 @@
+---
+id: blips
+title: Blips
+hide_title: true
+---
+
 # Blips
 
 | Blip Sprite | ID | Description |

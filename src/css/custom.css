@@ -43,12 +43,19 @@ article .badge.badge--secondary {
   font-size: .900rem;
 }
 
-.menu > .menu__list > .menu__list-item > .menu__link:not([href]),
-.menu > .menu__list > li > a.menu__link--sublist {
-  margin-top: 1.5rem;
-  margin-bottom: 0.2rem;
+.menu__link:not([href]) {
+  margin-top: 1.2rem;
+  margin-bottom: 0.1rem;
   color: #888;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 90%;
+}
+
+.menu__link {
+  user-select: none;
+}
+
+.menu__link:not([href])::after {
+  opacity: 0;
 }

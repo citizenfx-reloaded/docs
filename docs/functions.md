@@ -1,3 +1,9 @@
+---
+id: functions
+title: Functions
+hide_title: true
+---
+
 # Functions
 
 ## Client

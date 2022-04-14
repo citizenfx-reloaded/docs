@@ -1,3 +1,9 @@
+---
+id: install-server
+title: Getting Started
+hide_title: true
+---
+
 # Getting Started
 
 A step-by-step guide on setting up a Dedicated Server.

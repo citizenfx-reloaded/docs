@@ -1,3 +1,9 @@
+---
+id: checkpoints
+title: Checkpoints
+hide_title: true
+---
+
 # Checkpoints
 
 | Picture     | ID | Typ         | Description |

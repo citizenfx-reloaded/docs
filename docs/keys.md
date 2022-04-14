@@ -1,3 +1,9 @@
+---
+id: keys
+title: Key Codes
+hide_title: true
+---
+
 # Key Codes
 
 | Code | Key         |
