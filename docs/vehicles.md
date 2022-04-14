@@ -150,3 +150,171 @@
 |:-------:|:-------:|:----------:|:--------:|
 | ![alt text](Vehicles/CABLECAR.jpg "Car") | Cable Car | CABLECAR | 0xC6C3242D |
 | ![alt text](Vehicles/SUBWAY.jpg "Car") | Subway | SUBWAY_LO<br/>SUBWAY_HI | 0x2FBC4D30<br/>0x8B887FDB |
+
+## Useful Snippet
+
+```lua
+vehicles =
+{
+    {
+        category = "Cars",
+        models =
+        {
+            { name = "Admiral", model = "ADMIRAL" },
+            { name = "AirTug", model = "AIRTUG" },
+            { name = "Ambulance", model = "AMBULANCE" },
+            { name = "Banshee", model = "BANSHEE" },
+            { name = "Benson", model = "BENSON" },
+            { name = "Biff", model = "BIFF" },
+            { name = "Blista Compact", model = "BLISTA" },
+            { name = "Bobcat", model = "BOBCAT" },
+            { name = "Boxville", model = "BOXVILLE" },
+            { name = "Buccaneer", model = "BUCCANEER" },
+            { name = "Burrito", model = "BURRITO" },
+            { name = "Bus", model = "BUS" },
+            { name = "Cabby", model = "CABBY" },
+            { name = "Cavalcade", model = "CAVALCADE" },
+            { name = "Cavalcade FXT", model = "FXT" },
+            { name = "Chavos", model = "CHAVOS" },
+            { name = "Cognoscenti", model = "COGNOSCENTI" },
+            { name = "Comet", model = "COMET" },
+            { name = "Contender", model = "E109" },
+            { name = "Coquette", model = "COQUETTE" },
+            { name = "DF8-90", model = "DF8" },
+            { name = "Dilettante", model = "DILETTANTE" },
+            { name = "Dukes", model = "DUKES" },
+            { name = "Emperor", model = "EMPEROR" },
+            { name = "Emperor (Rusty)", model = "EMPEROR2" },
+            { name = "Enforcer", model = "NSTOCKADE" },
+            { name = "Esperanto", model = "ESPERANTO" },
+            { name = "Faction", model = "FACTION" },
+            { name = "Feltzer", model = "FELTZER" },
+            { name = "Feroci", model = "FEROCI" },
+            { name = "FIB Buffalo", model = "FBI" },
+            { name = "Firetruck", model = "FIRETRUK" },
+            { name = "Flatbed", model = "FLATBED" },
+            { name = "FlyUS Feroci", model = "FEROCI2" },
+            { name = "FlyUS Perennial", model = "PERENNIAL2" },
+            { name = "Forklift", model = "FORKLIFT" },
+            { name = "Fortune", model = "FORTUNE" },
+            { name = "Futo", model = "FUTO" },
+            { name = "Habanero", model = "HABANERO" },
+            { name = "Hakumai", model = "HAKUMAI" },
+            { name = "Huntley Sport", model = "HUNTLEY" },
+            { name = "Infernus", model = "INFERNUS" },
+            { name = "Ingot", model = "INGOT" },
+            { name = "Intruder", model = "INTRUDER" },
+            { name = "Landstalker", model = "LANDSTALKER" },
+            { name = "Laundromat", model = "BURRITO2" },
+            { name = "Lokus", model = "LOKUS" },
+            { name = "Manana", model = "MANANA" },
+            { name = "Marbelle", model = "MARBELLA" },
+            { name = "Merit", model = "MERIT" },
+            { name = "Minivan", model = "MINIVAN" },
+            { name = "Moonbeam", model = "MOONBEAM" },
+            { name = "Mr. Tasty", model = "MRTASTY" },
+            { name = "Mule", model = "MULE" },
+            { name = "NOOSE Cruiser", model = "NOOSE" },
+            { name = "NOOSE Patriot", model = "POLPATRIOT" },
+            { name = "Oracle", model = "ORACLE" },
+            { name = "Packer", model = "PACKER" },
+            { name = "Patriot", model = "PATRIOT" },
+            { name = "Perennial", model = "PERENNIAL" },
+            { name = "Peyote", model = "PEYOTE" },
+            { name = "Phantom", model = "PHANTOM" },
+            { name = "Pinnacle", model = "PINNACLE" },
+            { name = "PMP 600", model = "PMP600" },
+            { name = "Police Cruiser", model = "POLICE" },
+            { name = "Police Patrol", model = "POLICE2" },
+            { name = "Police Stockade", model = "PSTOCKADE" },
+            { name = "Pony", model = "PONY" },
+            { name = "Premier", model = "PREMIER" },
+            { name = "Presidente", model = "PRES" },
+            { name = "Primo", model = "PRIMO" },
+            { name = "Rancher", model = "RANCHER" },
+            { name = "Rebla", model = "REBLA" },
+            { name = "Ripley", model = "RIPLEY" },
+            { name = "Roman's Taxi", model = "ROM" },
+            { name = "Romero", model = "ROMERO" },
+            { name = "Ruiner", model = "RUINER" },
+            { name = "Sabre", model = "SABRE" },
+            { name = "Sabre (Rusty)", model = "SABRE2" },
+            { name = "Sabre GT", model = "SABREGT" },
+            { name = "Schafter", model = "SCHAFTER" },
+            { name = "Securicar", model = "STOCKADE" },
+            { name = "Sentinel", model = "SENTINEL" },
+            { name = "Solair", model = "SOLAIR" },
+            { name = "Speedo", model = "SPEEDO" },
+            { name = "Stallion", model = "STALION" },
+            { name = "Steed", model = "STEED" },
+            { name = "Stratum", model = "STRATUM" },
+            { name = "Stretch", model = "STRETCH" },
+            { name = "Sultan", model = "SULTAN" },
+            { name = "Sultan RS", model = "SULTANRS" },
+            { name = "Super GT", model = "SUPERGT" },
+            { name = "Taxi", model = "TAXI" },
+            { name = "Taxi (Merit)", model = "TAXI2" },
+            { name = "Trashmaster", model = "TRASH" },
+            { name = "Turismo", model = "TURISMO" },
+            { name = "Uranus", model = "URANUS" },
+            { name = "Vigero", model = "VIGERO" },
+            { name = "Vigero (Rusty)", model = "VIGERO2" },
+            { name = "Vincent", model = "VINCENT" },
+            { name = "Virgo", model = "VIRGO" },
+            { name = "Voodoo", model = "VOODOO" },
+            { name = "Washington", model = "WASHINGTON" },
+            { name = "Willard", model = "WILLARD" },
+            { name = "Yankee", model = "YANKEE" }
+        }
+    },
+
+    {
+        category = "Bikes",
+        models =
+        {
+            { name = "Faggio", model = "FAGGIO" },
+            { name = "Freeway", model = "BOBBER" },
+            { name = "Hellfury", model = "HELLFURY" },
+            { name = "NRG 900", model = "NRG900" },
+            { name = "PCJ 600", model = "PCJ" },
+            { name = "Sanchez", model = "SANCHEZ" },
+            { name = "Zombie", model = "ZOMBIEB" }
+        }
+    },
+
+    {
+        category = "Boats",
+        models =
+        {
+            { name = "Dinghy", model = "DINGHY" },
+            { name = "Jetmax", model = "JETMAX" },
+            { name = "Marquis", model = "MARQUIS" },
+            { name = "Police Predator", model = "PREDATOR" },
+            { name = "Reefer", model = "REEFER" },
+            { name = "Squalo", model = "SQUALO" },
+            { name = "Tropic", model = "TROPIC" },
+            { name = "Tug", model = "TUGA" }
+        }
+    },
+
+    {
+        category = "Aircraft",
+        models =
+        {
+            { name = "Annihilator", model = "ANNIHILATOR" },
+            { name = "Maverick", model = "MAVERICK" },
+            { name = "Police Maverick", model = "POLMAV" },
+            { name = "Helitours Maverick", model = "TOURMAV" }
+        }
+    },
+
+    {
+        category = "Other",
+        models =
+        {
+            { name = "Cable Car", model = "CABLECAR" },
+            { name = "Subway", model = "SUBWAY_LO" }
+        }
+    }
+}
+```
