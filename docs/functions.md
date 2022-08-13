@@ -46,8 +46,8 @@ hide_title: true
 - SetMapName
 - SetPlayerName
 - SetTimeout
-- StartResource
-- StopResource
+- [StartResource](#startresource)
+- [StopResource](#stopresource)
 - TempBanPlayer
 - [TriggerClientEvent](#triggerclientevent)
 - [TriggerEvent](#triggerevent)
@@ -308,6 +308,40 @@ SendNUIMessage({
 	action = "showMessage"
 })
 ```
+
+---
+
+### startresource
+This function is used to start a certain resource, by the name (on the server).
+
+#### Syntax
+```lua
+StartResource(string resourceName)
+```
+
+#### Arguments
+- **resourceName**: The name of the resource to be started.
+
+#### Returns:
+- **true**: if the resource starts
+- **false**: if it does not recognize any resource with that name, or if it is already active.
+
+---
+
+### stopresource
+This function is used to stop a certain resource, by the name (on the server).
+
+#### Syntax
+```lua
+StopResource(string resourceName)
+```
+
+#### Arguments
+- **resourceName**: The name of the resource to be stoped.
+
+#### Returns:
+- **true**: if the resource stops
+- **false**: if it does not recognize any resource with that name, or if it is already off.
 
 ---
 
